@@ -1,13 +1,13 @@
 // gen-pdf.js
 import { readFile } from 'fs/promises';
 import path from 'path';
-import * as theme from 'jsonresume-theme-straightforward';
+import * as theme from 'jsonresume-theme-even';
 import puppeteer from 'puppeteer';
 import { render } from 'resumed';
 
 (async () => {
   // 1) Render your resume to HTML
-  const resume = JSON.parse(await readFile('resume.json', 'utf-8'));
+  const resume = JSON.parse(await readFile('resumes/base.json', 'utf-8'));
   const html = await render(resume, theme);
 
 
