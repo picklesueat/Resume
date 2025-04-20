@@ -1,0 +1,36 @@
+{
+    "name": "resume-pdf-generator",
+    "version": "1.0.0",
+    "description": "Generate a PDF resume from JSON Resume using Resumed and Puppeteer",
+    "main": "generate-pdf.js",
+    "type": "module",
+    "scripts": {
+        "build:html": "resumed render resume.json --theme jsonresume-theme-even --output resume.html",
+        "serve": "resumed serve resume.json --theme jsonresume-theme-even",
+        "build:pdf": "node gen-pdf.js",
+        "clean": "rm -f resume.html resume.pdf"
+    },
+    "keywords": [
+        "resume",
+        "jsonresume",
+        "resumed",
+        "pdf",
+        "puppeteer"
+    ],
+    "author": "Joseph Gutstadt <your.email@example.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/resume-pdf-generator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/resume-pdf-generator/issues"
+    },
+    "homepage": "https://github.com/yourusername/resume-pdf-generator#readme",
+    "private": false,
+    "devDependencies": {
+        "jsonresume-theme-even": "*",
+        "puppeteer": "^24.6.1",
+        "resumed": "*"
+    }
+}

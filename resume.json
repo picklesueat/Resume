@@ -1,0 +1,115 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Joseph S. Gutstadt",
+    "label": "Software Engineer",
+    "email": "jgutstadt20@gmail.com",
+    "url": "https://github.com/picklesueat",
+    "summary": "Over 3 years of experience crafting scalable data solutions using Python, SQL, AWS, Snowflake, Airflow, Dagster, with strong expertise in data structures and algorithms. Bridged product and technical teams, mentored junior engineers, and led code reviews. Pursuing an MS in Computer Science at Georgia Tech and holding AWS and SnowPro certifications.",
+    "location": {
+      "city": "San Francisco",
+      "region": "California",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joseph-gutstadt",
+        "url": "https://www.linkedin.com/in/joseph-gutstadt/"
+      },
+      {
+        "network": "GitHub",
+        "username": "picklesueat",
+        "url": "https://github.com/picklesueat"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Integra Connect (Egen Solutions)",
+      "position": "Software Engineer",
+      "startDate": "2022-07",
+      "endDate": "2025-02",
+      "summary": "Collaborated with the Product team to guide implementation for DEV and QA teams, reducing deployment delays by 20%. Enhanced sprint velocity by 25% and mentored junior engineers in data engineering best practices.",
+      "highlights": [
+        "Streamlined workflows to accelerate new feature delivery.",
+        "Standardized robust unit tests and data orchestration as part of CI/CD workflow.",
+        "Mentored 4 junior engineers in Snowflake optimization."
+      ]
+    },
+    {
+      "name": "Epic Systems",
+      "position": "Technical Solutions Engineer",
+      "startDate": "2021-06",
+      "endDate": "2022-07",
+      "summary": "Resolved critical patient safety issues in a large legacy codebase and developed internal tool improvements.",
+      "highlights": [
+        "Resolved 100+ critical patient safety issues.",
+        "Developed SQL-based internal tools saving 30+ hours/month.",
+        "Primary liaison for 30 healthcare analysts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Master's",
+      "startDate": "2024-01",
+      "endDate": "2026-05",
+      "summary": "Pursuing MS in Computer Science."
+    },
+    {
+      "institution": "Colorado College",
+      "area": "Mathematics",
+      "studyType": "Bachelor's",
+      "startDate": "2016-08",
+      "endDate": "2020-05",
+      "summary": "Completed BA in Mathematics."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Job Titles in Data Science",
+      "description": "Created job listing dataset used by 100k people and wrote a report on data career skills.",
+      "url": "https://github.com/picklesueat/data_jobs_data"
+    },
+    {
+      "name": "Cloud Resume Project",
+      "description": "Developed a cloud-hosted resume including dynamic PDF generation and visitor tracking.",
+      "url": "https://github.com/picklesueat/aws-cloud-resume-challenge"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "Java", "C++", "C", "SQL", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Cloud Platforms",
+      "keywords": ["AWS", "Snowflake", "Azure", "GCP"]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": ["Data Modeling", "Data Warehousing", "ETL/ELT", "Data Orchestration (Dagster, Airflow)"]
+    },
+    {
+      "name": "DevOps & Tools",
+      "keywords": ["Git", "GitHub Actions", "Bash", "Docker", "Terraform", "Jenkins", "DBT", "Django", "Pandas"]
+    },
+    {
+      "name": "Additional Skills",
+      "keywords": ["Agile", "Scrum", "CI/CD", "Testing", "TDD", "Confluence", "Jira"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "url": "https://www.credly.com/badges/68e114d3-7510-4509-a518-eaaccee9554f/public_url"
+    },
+    {
+      "name": "SnowPro Core Certification",
+      "url": "https://www.credly.com/badges/0eab4946-7caf-41f2-8fce-a5d97fb51a85/public_url"
+    }
+  ]
+}
