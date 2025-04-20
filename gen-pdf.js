@@ -1,7 +1,7 @@
 // gen-pdf.js
 import { readFile } from 'fs/promises';
 import path from 'path';
-import * as theme from 'jsonresume-theme-even';
+import * as theme from 'jsonresume-theme-straightforward';
 import puppeteer from 'puppeteer';
 import { render } from 'resumed';
 
@@ -30,7 +30,7 @@ import { render } from 'resumed';
   
   // 3) Generate PDF, preserving backgrounds and any CSS @page rules
   await page.pdf({
-    path: 'resume.pdf',
+    path: 'output/resume.pdf',
     format: 'A4',           // or omit if you use @page { size: … } in your CSS
     printBackground: true,
     preferCSSPageSize: true // honour any @page size/margin declarations

@@ -29,7 +29,7 @@
     "homepage": "https://github.com/yourusername/resume-pdf-generator#readme",
     "private": false,
     "devDependencies": {
-        "jsonresume-theme-even": "*",
+        "jsonresume-theme-straightforward": "file:./themes/straightforward",
         "puppeteer": "^24.6.1",
         "resumed": "*"
     }
